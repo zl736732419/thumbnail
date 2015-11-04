@@ -1,0 +1,91 @@
+* {
+	padding:0;
+	margin:0;
+}
+
+html,body{
+	height:100%;
+} 
+
+.image-container {
+	width : 100%;
+	height : 100%;
+	overflow: scroll;
+	border : 1px solid gray;
+	position:relative;
+}
+
+.image-content {
+	position:relative;
+}
+
+.control-content {
+	width :320px;
+	position:absolute;
+	z-index:101;/*浮在选区上面*/
+}
+
+.size {
+	height:20px;
+	width:80px;
+	background-color: black;
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:80px;
+	z-index:100;
+	display:none;
+	padding:0 10px;
+	text-align: center;
+	font-size: 8pt;
+}
+
+.tip {
+	color: white;
+}
+
+.element {
+	position:absolute;
+	z-index:100;
+	border:1px solid #2a8ee1;
+}
+
+.span-btn {
+	width : 24px;
+	height : 24px;
+	display: inline-block;
+}
+
+.no-border {
+	border 0px;
+}
+
+.panel-heading {
+	position : relative;
+}
+
+/*添加小题按钮*/
+.add-btn {
+	background-image : url(../images/add_default.png);
+}
+
+.close-btn {
+	position:absolute;
+	right:12px;
+	top:8px;
+	background-image: url(../images/close_default.png);
+}
+
+.close-btn:hover {
+	cursor : pointer;
+	background-image: url(../images/close_focus.png);
+}
+
+.sub-question {
+	position:relative;
+	margin-bottom:20px;
+}
+
+.element {
+    box-sizing: content-box;
+}
