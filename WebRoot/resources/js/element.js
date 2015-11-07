@@ -290,7 +290,6 @@ function create_question_data() {
 }
 
 //创建选中元素的小题数据
-
 //@param subQuestionNum 小题号
 //@param subQuestionScore 分值
 //@param subQuestionScoreRate 给分率 1:连续 0:不连续
